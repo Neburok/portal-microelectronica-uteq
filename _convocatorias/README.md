@@ -1,0 +1,1 @@
+Los documentos de esta carpeta se publican como páginas de convocatorias. Agrega un archivo `.md` con título, descripción, fechas límite, requisitos, enlace oficial y estado vigente. Retira o marca como cerradas las convocatorias vencidas.

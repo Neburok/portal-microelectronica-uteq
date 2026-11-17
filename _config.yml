@@ -1,0 +1,59 @@
+title: "Microelectrónica y Semiconductores | UTEQ"
+description: "Actividades, proyectos, oportunidades y comunidad universitaria en microelectrónica y semiconductores."
+lang: es-MX
+timezone: America/Mexico_City
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /noticias/:year/:month/:day/:title/
+collections:
+  convocatorias:
+    output: true
+    permalink: /convocatorias/:name/
+  eventos:
+    output: true
+    permalink: /eventos/:name/
+  comunidad:
+    output: true
+    permalink: /comunidad/:name/
+  proyectos:
+    output: true
+    permalink: /proyectos/:name/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: convocatorias
+    values:
+      layout: item
+      section: Convocatorias
+  - scope:
+      path: ""
+      type: eventos
+    values:
+      layout: item
+      section: Eventos
+  - scope:
+      path: ""
+      type: comunidad
+    values:
+      layout: item
+      section: Comunidad
+  - scope:
+      path: ""
+      type: proyectos
+    values:
+      layout: item
+      section: Proyectos
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
