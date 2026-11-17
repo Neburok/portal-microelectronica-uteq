@@ -2,8 +2,8 @@ title: "Microelectrónica y Semiconductores | UTEQ"
 description: "Actividades, proyectos, oportunidades y comunidad universitaria en microelectrónica y semiconductores."
 lang: es-MX
 timezone: America/Mexico_City
-url: ""
-baseurl: ""
+url: "https://neburok.github.io"
+baseurl: "/portal-microelectronica-uteq"
 markdown: kramdown
 permalink: /noticias/:year/:month/:day/:title/
 collections:
